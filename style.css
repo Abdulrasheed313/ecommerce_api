@@ -5,6 +5,7 @@
 }
 .card{
     height:550px;
+    border-radius: 20px;
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     margin: 0 auto;
@@ -17,3 +18,30 @@ a.main_btn {
     border-radius: 10px;
     font-weight: 700;
 }
+footer.text-center.text-lg-start.bg-body-tertiary.text-muted {
+    background-color: black;
+    color: white;
+}
+footer h6.text-uppercase.fw-bold.mb-4 {
+    color: white;
+}
+footer p {
+    color: white;
+}
+nav.navbar.navbar-expand-lg.navbar-light.p-3.mb-2.bg-light {
+    background-color: #59bef7 !important;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        height: unset !important;
+        padding: 6px !important;
+    }
+
+}
+
